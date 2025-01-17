@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import Header from './components/Header';
+import QRCode from './components/QRCode';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/events" element={<Events />} />
             <Route path="/wins" element={<Wins />} />
+            <Route path="/qr" element={<QRCode />} />
           </Routes>
         </main>
         <Footer handleDiscordJoin={handleDiscordJoin} />
