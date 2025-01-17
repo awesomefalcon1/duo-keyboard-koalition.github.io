@@ -26,7 +26,6 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/events" element={<Events />} />
             <Route path="/wins" element={<Wins />} />
-            <Route path="/qr" element={<QRCode />} />
           </Routes>
         </main>
         <Footer handleDiscordJoin={handleDiscordJoin} />
