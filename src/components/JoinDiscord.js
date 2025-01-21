@@ -3,6 +3,7 @@ import { DiscIcon as DiscordLogo } from 'lucide-react'
 import { Button } from "./ui/button"
 import { Card, CardContent } from "./ui/card"
 import QRCode from './QRCode'
+//import { GenQr } from './GenQr'
 function JoinDiscord() {
   const discordInviteLink = "https://discord.com/invite/6GaWZAawUc"
 
@@ -38,6 +39,8 @@ function JoinDiscord() {
               Learn More
             </Button>
           </div>
+        </div>
+        <div className="mt-6">
           <QRCode />
         </div>
       </CardContent>
