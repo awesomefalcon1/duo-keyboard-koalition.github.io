@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-//import { ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { Card, CardContent } from "./components/ui/card"
 import Header from './components/Header';
 //import QRCode from './components/QRCode';
@@ -28,20 +28,37 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/wins" element={<Wins />} />
           </Routes>
-          <Card className="bg-gray-900 border-gray-800">
-            <CardContent className="p-6">
-              <h2 className="text-3xl font-bold mb-6">Links Work in progress</h2>
-              <ul className="space-y-4 list-none">
-                <li>
-                  <Link to="https://duo-keyboard-koalition.github.io/edenhouse/" className="text-blue-500 hover:text-blue-600">About</Link>
-                </li>
-                <li>
-                  <Link to="https://duo-keyboard-koalition.github.io/qr-code/" className="text-blue-500 hover:text-blue-600">QR Code</Link>
-                </li>
-              </ul>
-            </CardContent>
-        </Card>
           
+          <Card className="bg-gray-900 border-gray-800 mt-6">
+            <CardContent className="p-6">
+              <h2 className="text-3xl font-bold mb-6">Our Presence</h2>
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <a 
+                    href="https://dorahacks.io/org/2861" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flex items-center gap-2 text-blue-500 hover:text-blue-600"
+                  >
+                    <span>Visit us on DoraHacks</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <a 
+                    href="https://github.com/orgs/Duo-Keyboard-Koalition/repositories" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="flex items-center gap-2 text-blue-500 hover:text-blue-600"
+                  >
+                    <span>Check our GitHub</span>
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </main>
         <Footer handleDiscordJoin={handleDiscordJoin} />
       </div>
