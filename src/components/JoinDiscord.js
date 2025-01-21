@@ -2,8 +2,8 @@ import React from 'react'
 import { DiscIcon as DiscordLogo } from 'lucide-react'
 import { Button } from "./ui/button"
 import { Card, CardContent } from "./ui/card"
-import QRCode from './QRCode'
-//import { GenQr } from './GenQr'
+//import QRCode from './QRCode'
+import QRCodeGenerator from './GenQr'
 function JoinDiscord() {
   const discordInviteLink = "https://discord.com/invite/6GaWZAawUc"
 
@@ -41,7 +41,7 @@ function JoinDiscord() {
           </div>
         </div>
         <div className="mt-6">
-          <QRCode />
+          <QRCodeGenerator />
         </div>
       </CardContent>
     </Card>
