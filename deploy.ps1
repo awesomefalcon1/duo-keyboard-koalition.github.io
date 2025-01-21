@@ -4,7 +4,7 @@ $commitMessage = "production-update-$date"
 
 # Build the project
 Write-Host "Building project..." -ForegroundColor Green
-npm run build
+npm run deploy
 
 # Check if build was successful
 if ($LASTEXITCODE -eq 0) {
