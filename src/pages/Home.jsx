@@ -1,7 +1,7 @@
 import React from 'react';
 //import { QRCodeSVG } from 'qrcode.react';
-import { Card, CardHeader, CardContent, CardFooter, CardTitle, CardDescription } from "./ui/card";
-import { Button } from "./ui/button";
+import { Card, CardHeader, CardContent, CardFooter, CardTitle, CardDescription } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 import { ExternalLink } from 'lucide-react';
 /*
 function QRCodeGenerator({ value = 'https://discord.gg/6GaWZAawUc', label }) {
