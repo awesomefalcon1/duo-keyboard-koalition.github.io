@@ -1,0 +1,125 @@
+# Duo Keyboard Koalition Events Schedule
+# Format: YAML with event details for calendar generation
+
+events:
+  - title: "Weekly Co-working Session"
+    type: "coworking"
+    description: "Open co-working session for all Koalition members to collaborate on projects"
+    start_date: "2025-01-15"
+    start_time: "19:00"
+    end_time: "22:00"
+    timezone: "America/New_York"
+    location: "Discord Voice Channels"
+    recurring: "weekly"
+    recurring_until: "2025-12-31"
+    tags: ["coworking", "collaboration", "weekly"]
+
+  - title: "HackMIT 2025"
+    type: "hackathon"
+    description: "Major hackathon at MIT - Koalition deploying 3 coordinated teams"
+    start_date: "2025-02-15"
+    start_time: "18:00"
+    end_date: "2025-02-17"
+    end_time: "18:00"
+    timezone: "America/New_York"
+    location: "MIT Campus, Cambridge, MA"
+    url: "https://hackmit.org"
+    teams_deployed: 3
+    tags: ["hackathon", "major", "in-person", "MIT"]
+
+  - title: "Strategy Planning Session"
+    type: "meeting"
+    description: "Monthly strategic planning for upcoming hackathons and project reviews"
+    start_date: "2025-01-20"
+    start_time: "20:00"
+    end_time: "21:30"
+    timezone: "America/New_York"
+    location: "Discord - Strategy Room"
+    recurring: "monthly"
+    recurring_until: "2025-12-31"
+    tags: ["strategy", "planning", "monthly"]
+
+  - title: "TreeHacks 2025"
+    type: "hackathon"
+    description: "Stanford's premier hackathon - Koalition coordinated deployment"
+    start_date: "2025-02-21"
+    start_time: "19:00"
+    end_date: "2025-02-23"
+    end_time: "17:00"
+    timezone: "America/Los_Angeles"
+    location: "Stanford University, CA"
+    url: "https://treehacks.com"
+    teams_deployed: 2
+    tags: ["hackathon", "major", "in-person", "Stanford"]
+
+  - title: "Project Showcase & Demo Day"
+    type: "showcase"
+    description: "Monthly showcase of preserved projects and incubator-ready demos"
+    start_date: "2025-01-25"
+    start_time: "15:00"
+    end_time: "17:00"
+    timezone: "America/New_York"
+    location: "Discord - Main Stage"
+    recurring: "monthly"
+    recurring_until: "2025-12-31"
+    tags: ["showcase", "demo", "projects", "monthly"]
+
+  - title: "Networking Mixer"
+    type: "networking"
+    description: "Casual networking session for new and existing members"
+    start_date: "2025-01-30"
+    start_time: "19:30"
+    end_time: "21:00"
+    timezone: "America/New_York"
+    location: "Discord - Social Lounge"
+    recurring: "monthly"
+    recurring_until: "2025-12-31"
+    tags: ["networking", "social", "monthly"]
+
+  - title: "HackTheNorth 2025"
+    type: "hackathon"
+    description: "Canada's biggest hackathon - Major Koalition operation"
+    start_date: "2025-03-14"
+    start_time: "18:00"
+    end_date: "2025-03-16"
+    end_time: "18:00"
+    timezone: "America/Toronto"
+    location: "University of Waterloo, ON"
+    url: "https://hackthenorth.com"
+    teams_deployed: 4
+    tags: ["hackathon", "major", "in-person", "Canada"]
+
+  - title: "Tech Talk: Scaling Hackathon Projects"
+    type: "workshop"
+    description: "Workshop on taking hackathon prototypes to production-ready applications"
+    start_date: "2025-02-05"
+    start_time: "20:00"
+    end_time: "21:30"
+    timezone: "America/New_York"
+    location: "Discord - Workshop Room"
+    tags: ["workshop", "tech-talk", "scaling"]
+
+  - title: "PennApps 2025"
+    type: "hackathon"
+    description: "University of Pennsylvania's hackathon - Strategic deployment"
+    start_date: "2025-03-28"
+    start_time: "18:00"
+    end_date: "2025-03-30"
+    end_time: "17:00"
+    timezone: "America/New_York"
+    location: "University of Pennsylvania, Philadelphia, PA"
+    url: "https://pennapps.com"
+    teams_deployed: 2
+    tags: ["hackathon", "major", "in-person", "UPenn"]
+
+  - title: "Quarterly Alliance Review"
+    type: "meeting"
+    description: "Quarterly review of Koalition performance, wins, and strategic adjustments"
+    start_date: "2025-03-31"
+    start_time: "19:00"
+    end_time: "21:00"
+    timezone: "America/New_York"
+    location: "Discord - Leadership Room"
+    recurring: "quarterly"
+    recurring_until: "2025-12-31"
+    tags: ["review", "quarterly", "leadership"]
