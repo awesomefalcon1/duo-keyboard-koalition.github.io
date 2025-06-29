@@ -7,7 +7,14 @@ function Home() {
     <section className="container mx-auto px-4 mb-16">
       {/* Hero Section */}
       <div className="w-full text-center mb-12 py-16 bg-gradient-to-b from-gray-800/80 to-gray-900/90 border-2 border-primary/30 rounded-xl shadow-2xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary animate-pulse mb-6">
+        <div className="flex justify-center mb-6">
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-PjQ7yXSb2U4BqTmLgAhrHSc15WVDmA.png"
+            alt="Duo Keyboard Koalition Logo"
+            className="w-24 h-24 md:w-32 md:h-32 animate-pulse"
+          />
+        </div>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 tracking-tight">
           Duo Keyboard Koalition
         </h1>
         <p className="text-gray-200 text-xl md:text-2xl max-w-3xl mx-auto mb-4">
