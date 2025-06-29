@@ -1,8 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
+  const handleDiscordJoin = () => {
+    window.open('https://discord.com/invite/6GaWZAawUc', '_blank');
+  };
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-black text-white">
@@ -11,9 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
           </Routes>
         </main>
-        {/* 
         <Footer handleDiscordJoin={handleDiscordJoin} />
-      Footer */}
       </div>
     </Router>
   );
